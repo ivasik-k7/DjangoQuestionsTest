@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+
+# If your database settings are set to use Postgresql and you are using docker
+postgres_data/
+
+# Django migrations
+**/migrations/**
+!**/migrations/__init__.py
+
+# Media files
+media/
+staticfiles/
+
+# Local settings
+local_settings.py
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# JetBrains Rider
+.idea/
+.idea_modules/
+.idea/httpRequests/
+.idea/libraries/
+.idea/runConfigurations/
+.idea/scopes/
+.idea/workspace.xml
+.idea/shelf/
+
+# Anaconda
+*.ipynb_checkpoints
